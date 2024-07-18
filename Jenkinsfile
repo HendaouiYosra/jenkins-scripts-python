@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Install Dependencies') {
             steps {
-                sh './install_dependencies.sh'
+                sh 'python3 install_jenkins.py'
             }
         }
     stage('hello') {
