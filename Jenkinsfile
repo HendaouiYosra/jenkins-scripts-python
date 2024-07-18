@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+        PATH = "/path/to/python/bin:${env.PATH}"
+    }
   stages {
     stage('version') {
       steps {
