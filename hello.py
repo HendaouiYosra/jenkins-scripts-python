@@ -20,8 +20,8 @@ def trigger_jenkins_job_build(server_url, access_token, job_name):
 
 if __name__ == "__main__":
   # Jenkins server details
-  jenkins_server_url = "https://jenkins.artibedded.com/"
-  jenkins_access_token = "11b42187f5222050e03da11baea3bf4e44"
+  jenkins_server_url = "https://jenkins.******.com/"
+  jenkins_access_token = "***************"
 
   # Job details
   job_name = "build"
